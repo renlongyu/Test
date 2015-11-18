@@ -1,0 +1,6 @@
+langure: objective-c
+xcode_project: Test.xcodeproj
+xcode_scheme: Test
+script:
+  - xctool -project Test.xcodeproj -scheme Test -sdk iphonesimulator ONLY_ACTIVE_ARCH = NO
+  - xctool test -project Test.xcodeproj -scheme Test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
