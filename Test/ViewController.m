@@ -23,6 +23,7 @@
     test.dic = @{@"key": @"value"};
     NSString *str = test.dic[@"key"];
     NSLog(@"%@", str);
+    
 }
 
 - (void)didReceiveMemoryWarning {
